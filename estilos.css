@@ -1,0 +1,94 @@
+.banner{
+    text-align: center;
+    background-color: rgb(201, 162, 162);
+    padding: 10px;
+}
+
+.menu{
+    text-align: center;
+    
+}
+
+.datospersonales{
+    background-color: yellow;
+    text-align: center;
+    padding: 3%;
+
+}
+
+.imagenperfil{
+    background-color: teal;
+    text-align: center;
+    padding: 3%;
+
+}
+
+.reseñapersonal{
+    background-color: violet;
+    text-align: center;
+    padding: 3%;
+
+}
+
+.misprincipios{
+    background-color:navajowhite;
+    text-align: center;
+    padding: 3%;
+}
+
+.misgustos{
+    background-color: rgb(162, 162, 223);
+    text-align: center;
+    padding: 3%;
+
+}
+
+.piedepagina{
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    font-family: fantasy;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.apoyandotodos{
+    background-color: rgb(126, 218, 126);
+    text-align: center;
+    padding: 3%;
+}
+
+.imagenmundo{
+    padding: 3%;
+    background-color: white;
+    text-align: center;
+}
+
+.calentamientoglobal{
+background-color: teal;
+text-align: center;
+padding: 3%;
+}
+
+.sobreexplotacion{
+    background-color: rgb(175, 103, 69);
+    text-align: center;
+    padding: 3%;
+}
+
+.acciones{
+    background-color: rgb(107, 97, 131);
+    text-align: center;
+    padding: 3%;
+}
+
+.referencias{
+    background-color: rgb(188, 212, 131);
+    text-align: center;
+    padding: 3%;
+}
