@@ -8,12 +8,19 @@
     <title>Yo quiero otro mundo - iteracion 4</title>
     <link rel="stylesheet" href="estilos.css">
 
+    <script>
+        function mialerta() {
+            alert("HOLA JOAQUIN, SOY UN MENSAJE DE ALERTA!!");
+        }
+    </script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
+
     <div class="container-fluid">
         <header class="row banner">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -35,7 +42,9 @@
         <div>
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 imagenperfil">
-                    <h2>Imagen Perfil <hr color="black"><br></h2>
+                    <h2>Imagen Perfil
+                        <hr color="black"><br>
+                    </h2>
                     <img src="./img/yo.JPG" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 datospersonales">
@@ -45,6 +54,14 @@
                         <p>Nombre: Victor retamal</p>
                         <p>Telefono: 971930039</p>
                         <p>Correo Electrónico: victorenret@gmail.com</p>
+
+                        <input type="button " class="botonalerta" onclick="mialerta();" value="CLICK ALERTA" />
+                        
+                        
+
+
+
+
                     </article>
                 </div>
                 <div class="col-12 col-sm-0 col-md-0 col-lg-4 col-xl-4 reseñapersonal">
