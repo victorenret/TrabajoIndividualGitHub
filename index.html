@@ -12,16 +12,34 @@
         function mialerta() {
             alert("HOLA JOAQUIN, SOY UN MENSAJE DE ALERTA!!");
         }
+
+        function generarNuevoColor() {
+            var simbolos, color;
+            simbolos = "0123456789ABCDEF";
+            color = "#";
+
+            for (var i = 0; i < 6; i++) {
+                color = color + simbolos[Math.floor(Math.random() * 16)];
+            }
+
+            document.body.style.background = color;
+            document.getElementById("hexadecimal").innerHTML = color;
+            document.getElementById("text").innerHTML = "Copiar Color";
+        }
+
     </script>
+
+    <link rel="stylesheet" href="./main.js">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.js">
 </head>
 
 <body>
 
-    <div class="container-fluid">
+    <div class="container">
         <header class="row banner">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <h1>MI INFORMACIÓN</h1>
@@ -29,7 +47,7 @@
         </header>
 
         <div class="row menu">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" class="menu2">
                 <nav>
                     <button type="button" class="btn btn-outline-secondary"><a
                             href="./contenido.html">Contenido</a></button>
@@ -56,11 +74,7 @@
                         <p>Correo Electrónico: victorenret@gmail.com</p>
 
                         <input type="button " class="botonalerta" onclick="mialerta();" value="CLICK ALERTA" />
-                        
-                        
-
-
-
+                        <br>
 
                     </article>
                 </div>
@@ -71,7 +85,15 @@
                         <p>Mi nombre es Victor. tengo 30 años, me considero una persona tranquila, no me gusta salir
                             mucho, solo a lugares acompañado con mi familia. Me gusta el entorno familiar.
                         </p>
+
+                        <!-- codigo boton  -->
+
+                        <div class="color">
+                            <button onclick="generarNuevoColor()">Cambiar Fondo</button>
+                        </div>
+
                     </article>
+
                 </div>
             </div>
 
