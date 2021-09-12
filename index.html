@@ -7,34 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yo quiero otro mundo - iteracion 4</title>
     <link rel="stylesheet" href="estilos.css">
+    <script type="text/javascript" src="./js/main.js"></script>
 
-    <script>
-        function mialerta() {
-            alert("HOLA JOAQUIN, SOY UN MENSAJE DE ALERTA!!");
-        }
-
-        function generarNuevoColor() {
-            var simbolos, color;
-            simbolos = "0123456789ABCDEF";
-            color = "#";
-
-            for (var i = 0; i < 6; i++) {
-                color = color + simbolos[Math.floor(Math.random() * 16)];
-            }
-
-            document.body.style.background = color;
-            document.getElementById("hexadecimal").innerHTML = color;
-            document.getElementById("text").innerHTML = "Copiar Color";
-        }
-
-    </script>
-
-    <link rel="stylesheet" href="./main.js">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.js">
 </head>
 
 <body>
@@ -47,7 +25,7 @@
         </header>
 
         <div class="row menu">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" class="menu2">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <nav>
                     <button type="button" class="btn btn-outline-secondary"><a
                             href="./contenido.html">Contenido</a></button>
@@ -73,9 +51,6 @@
                         <p>Telefono: 971930039</p>
                         <p>Correo Electrónico: victorenret@gmail.com</p>
 
-                        <input type="button " class="botonalerta" onclick="mialerta();" value="CLICK ALERTA" />
-                        <br>
-
                     </article>
                 </div>
                 <div class="col-12 col-sm-0 col-md-0 col-lg-4 col-xl-4 reseñapersonal">
@@ -86,7 +61,7 @@
                             mucho, solo a lugares acompañado con mi familia. Me gusta el entorno familiar.
                         </p>
 
-                        <!-- codigo boton  -->
+                        <!-- codigo boton cambiar fondo-->
 
                         <div class="color">
                             <button onclick="generarNuevoColor()">Cambiar Fondo</button>
@@ -143,6 +118,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+        <!-- Alert Suite -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/alerta.js"></script>
+
+
 </body>
 
 </html>
