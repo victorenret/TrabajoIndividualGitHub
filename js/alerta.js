@@ -1,3 +1,4 @@
 swal.fire({
-    title:"Bienvenidos a mi sitio"
+    title:"Bienvenidos a mi Sitio"
+    
 });

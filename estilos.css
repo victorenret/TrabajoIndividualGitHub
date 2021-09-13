@@ -1,102 +1,141 @@
-.banner{
+.banner {
     text-align: center;
     background-color: rgb(201, 162, 162);
     padding: 10px;
 }
 
-.menu{
+.menu {
     text-align: center;
     color: black;
-    
 }
 
-.datospersonales{
+.datospersonales {
     background-color: yellow;
     text-align: center;
     padding: 3%;
-
 }
 
-.imagenperfil{
+.imagenperfil {
     background-color: teal;
     text-align: center;
     padding: 3%;
-
-
 }
 
-.reseñapersonal{
+.reseñapersonal {
     background-color: rgb(66, 180, 233);
     text-align: center;
     padding: 3%;
-
 }
 
-.misprincipios{
-    background-color:navajowhite;
+.misprincipios {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: navajowhite;
     text-align: center;
     padding: 3%;
 }
 
-.misgustos{
+.misgustos {
+    margin-top: 1%;
+    margin-bottom: 1%;
     background-color: rgb(162, 162, 223);
     text-align: center;
     padding: 3%;
-
 }
 
-.piedepagina{
+.piedepagina {
     background-color: green;
     text-align: center;
     padding: 20px;
 }
 
-h2{
+h2 {
     font-family: fantasy;
 }
 
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+h1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.apoyandotodos{
+.apoyandotodos {
     background-color: rgb(126, 218, 126);
     text-align: center;
     padding: 3%;
 }
 
-.imagenmundo{
-    padding: 3%;
+.imagenmundo {
+    padding: 7%;
     background-color: white;
     text-align: center;
 }
 
-.calentamientoglobal{
-background-color: teal;
-text-align: center;
-padding: 3%;
+.calentamientoglobal {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: teal;
+    text-align: center;
+    padding: 3%;
 }
 
-.sobreexplotacion{
+.sobreexplotacion {
+    margin-top: 1%;
+    margin-bottom: 1%;
     background-color: rgb(175, 103, 69);
     text-align: center;
     padding: 3%;
 }
 
-.acciones{
+.acciones {
+    margin-top: 1%;
+    margin-bottom: 1%;
     background-color: rgb(107, 97, 131);
     text-align: center;
     padding: 3%;
 }
 
-.referencias{
+.referencias {
+    margin-bottom: 1%;
     background-color: rgb(188, 212, 131);
     text-align: center;
     padding: 3%;
 }
 
-.botonalerta{
+.botonalerta {
     text-align: center;
     background-color: red;
-    
 }
+
+/* ESTILO BARRA NAV */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  margin: 0px;
+}
+nav {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 15px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#nav-3 {
+  background: #236e81;
+}
+
+.link-3 {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.link-3:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
+}
+/* FIN ESTILO BARRA NAV */
