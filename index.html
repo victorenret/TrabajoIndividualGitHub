@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="estilos.css">
     <script type="text/javascript" src="./js/main.js"></script>
 
+    <!-- estilo nav -->
+    <link rel="stylesheet" href="./estilonav.css">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -26,12 +29,14 @@
 
         <div class="row menu">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <nav>
-                    <button type="button" class="btn btn-outline-secondary"><a
-                            href="./contenido.html">Contenido</a></button>
-                    <button type="button" class="btn btn-outline-secondary"><a
-                            href="https://blog.oxfamintermon.org/los-7-problemas-del-medio-ambiente-mas-graves/">Problemas</a></button>
+
+                <nav id="nav-3">
+                    <a class="link-3" href="./contenido.html">Contenido</a>
+                    <a class="link-3" href="https://blog.oxfamintermon.org/los-7-problemas-del-medio-ambiente-mas-graves/">Problemas</a>
+                    <!-- codigo boton cambiar fondo-->
+                    <button onclick="generarNuevoColor()">Cambiar Fondo</button>
                 </nav>
+
             </div>
         </div>
 
@@ -60,12 +65,6 @@
                         <p>Mi nombre es Victor. tengo 30 años, me considero una persona tranquila, no me gusta salir
                             mucho, solo a lugares acompañado con mi familia. Me gusta el entorno familiar.
                         </p>
-
-                        <!-- codigo boton cambiar fondo-->
-
-                        <div class="color">
-                            <button onclick="generarNuevoColor()">Cambiar Fondo</button>
-                        </div>
 
                     </article>
 
@@ -119,7 +118,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-        <!-- Alert Suite -->
+    <!-- Alert Suite -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/alerta.js"></script>
 
