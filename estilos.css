@@ -139,3 +139,31 @@ nav {
   padding: 24px 10px;
 }
 /* FIN ESTILO BARRA NAV */
+
+
+/* BANNER  
+
+codigo adaptado desde:
+https://www.youtube.com/watch?v=MNr5QqaDg4I*/ 
+
+.container-portada{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 1%;
+    background-image: url(./img/banner.jpg);
+    background-size: 200%;
+    animation: movimiento 10s infinite linear alternate;
+    
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }
+    to{
+        background-position: top right;
+    }
+}
+
+/* FIN BANNER */
