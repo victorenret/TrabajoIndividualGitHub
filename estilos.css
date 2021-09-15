@@ -167,3 +167,18 @@ https://www.youtube.com/watch?v=MNr5QqaDg4I*/
 }
 
 /* FIN BANNER */
+
+/* estilo tabla */
+
+table{
+    background-color: rgb(62, 113, 190);
+    color: black;
+}
+
+
+body h1{
+    text-align: center;
+}
+body p{
+    text-align: center;
+}
