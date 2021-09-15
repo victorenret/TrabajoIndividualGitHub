@@ -8,10 +8,6 @@ function generarNuevoColor(){
 	}
 
 	document.body.style.background = color;
-	document.getElementById("hexadecimal").innerHTML = color;
+	// document.getElementById("hexadecimal").innerHTML = color;
 	document.getElementById("text").innerHTML = "Copiar Color";
-}
-
-function mialerta() {
-    alert("HOLA JOAQUIN, SOY UN MENSAJE DE ALERTA!!");
 }
