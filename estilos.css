@@ -207,3 +207,9 @@ table {
 .efect2:hover {filter: sepia(60%);}
 
 /* FIN ESTILO DE IMAGENES */
+
+
+.iconface{
+  height: 100px;
+  width: 100px;
+}
